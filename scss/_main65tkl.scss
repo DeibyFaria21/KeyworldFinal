@@ -1,0 +1,57 @@
+main{
+    @media (min-width: 320px) and (max-width: 767px){
+        .cajaimgtextprod1{
+            display: flex;
+            justify-content: space-around;
+            margin: 2%;
+            margin-left: 3%;
+            margin-right: 3%;
+            padding: 1%;
+            border-style: solid;
+            border-radius: 20px;
+            background-color: $color-bg-tablet;
+        }
+    }
+    @media (min-width: 768px){
+        .cajaimgtextprod1{
+            display: flex;
+            justify-content: space-around;
+            margin: 2%;
+            margin-left: 3%;
+            margin-right: 3%;
+            padding: 1%;
+            border-style: solid;
+            border-radius: 20px;
+            background-color: $color-bg-pc;
+        }
+    }
+
+    @media (min-width: 320px) and (max-width: 767px){
+        .cajaimgtextprod2{
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: space-around;
+            margin: 2%;
+            margin-left: 3%;
+            margin-right: 3%;
+            padding: 1%;
+            padding-right: 2%;
+            border-style: solid;
+            border-radius: 20px;
+            background-color: $color-bg-tablet;
+        }
+    }
+    @media (min-width: 768px){
+        .cajaimgtextprod2{
+            display: flex;
+            justify-content: space-around;
+            margin: 2%;
+            margin-left: 3%;
+            margin-right: 3%;
+            padding: 1%;
+            border-style: solid;
+            border-radius: 20px;
+            background-color: $color-bg-pc;
+        }
+    }
+}

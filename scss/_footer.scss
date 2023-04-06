@@ -1,0 +1,27 @@
+footer{
+    .sorteobox{
+        margin: auto;
+        padding: 20px;
+        width: 75%;
+        text-align: center;
+        background-color: rgb(194, 194, 194);
+        border-style: solid;
+        border-radius: 30px;
+        border-width: 2px;
+        .textosorteo{
+            text-decoration: underline;
+        }
+        .premio{
+            border-style: solid;
+            border-radius: 15px;
+            width: 15%;
+            border-color: rgb(255, 72, 0);
+            border-width: 0.7px;
+        }
+    }
+    .redes{
+        color: white;
+        text-align: center;
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,58 @@
+main{
+    @media (min-width: 320px) and (max-width: 767px){
+        .cajaimgtextproda{
+            display: flex;
+            justify-content: space-around;
+            margin: 2%;
+            margin-left: 3%;
+            margin-right: 3%;
+            padding: 1%;
+            border-style: solid;
+            border-radius: 20px;
+            background-color: $color-bg-tablet;
+        }
+    }
+    @media (min-width: 768px){
+        .cajaimgtextproda{
+            display: flex;
+            justify-content: space-around;
+            margin: 2%;
+            margin-left: 3%;
+            margin-right: 3%;
+            padding: 1%;
+            border-style: solid;
+            border-radius: 20px;
+            background-color: $color-bg-pc;
+        }
+    }
+
+    @media (min-width: 320px) and (max-width: 767px){
+        .cajaimgtextprodb{
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: space-around;
+            margin: 2%;
+            margin-left: 3%;
+            margin-right: 3%;
+            padding: 1%;
+            padding-left: 25px;
+            padding-right: 0;
+            border-style: solid;
+            border-radius: 20px;
+            background-color: $color-bg-tablet;
+        }
+    }
+    @media (min-width: 768px){
+        .cajaimgtextprodb{
+            display: flex;
+            justify-content: space-around;
+            margin: 2%;
+            margin-left: 3%;
+            margin-right: 3%;
+            padding: 1%;
+            border-style: solid;
+            border-radius: 20px;
+            background-color: $color-bg-pc;
+        }
+    }
+}

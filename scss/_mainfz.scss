@@ -1,0 +1,48 @@
+main{
+    @media (min-width: 320px) and (max-width: 767px){
+        .cajatarjetas{
+            display: flex;
+            justify-content: space-around;
+            margin: 2%;
+            margin-left: 3%;
+            margin-right: 3%;
+            padding: 1%;
+            border-style: solid;
+            border-radius: 20px;
+            background-color: $color-bg-tablet;
+            .encabezado{
+                .textofz{
+                    margin: 20px;
+                    text-decoration: underline;
+                    text-align: center;
+                }
+            }
+            .card{
+                background-color: $color-bluesoft;
+            }
+        }
+    }
+    @media (min-width: 768px){
+        .cajatarjetas{
+            display: flex;
+            justify-content: space-around;
+            margin: 2%;
+            margin-left: 3%;
+            margin-right: 3%;
+            padding: 1%;
+            border-style: solid;
+            border-radius: 20px;
+            background-color: $color-bg-pc;
+            .encabezado{
+                .textofz{
+                    margin: 20px;
+                    text-decoration: underline;
+                    text-align: center;
+                }
+            }
+            .card{
+                background-color: $color-graysoft;
+            }
+        }
+    }
+}
