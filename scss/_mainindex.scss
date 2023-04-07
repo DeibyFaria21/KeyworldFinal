@@ -4,7 +4,19 @@
         flex-direction: column-reverse;
         margin: 2% 3%;
         padding: 2%;
-        border-style: solid;
+        color: rgb(14, 53, 138);
+        border: solid $color-border-2;
+        border-radius: 20px;
+        background-color: $color-bg-tablet;
+    }
+    .cajaimgtext2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 2% 3%;
+        padding: 2%;
+        color: rgb(14, 53, 138);
+        border: solid $color-border-2;
         border-radius: 20px;
         background-color: $color-bg-tablet;
     }
@@ -15,55 +27,70 @@
         flex-direction: column-reverse;
         margin: 2% 3%;
         padding: 2%;
-        border-style: solid;
+        color: whitesmoke;
+        border: solid $color-border-1;
         border-radius: 20px;
         background-color: $color-bg-pc;
+        font-size: 1.2rem;
+    }
+    .cajaimgtext2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 2% 3%;
+        padding: 2%;
+        color: whitesmoke;
+        border: solid $color-border-1;
+        border-radius: 20px;
+        background-color: $color-bg-pc;
+        font-size: 1.2rem;
     }
 }
-@media (min-width:1200px){
+@media (min-width:1200px) and (max-width: 1599px){
     .cajaimgtext1{
         display: flex;
         justify-content: space-around;
         margin: 2% 3%;
         padding: 2%;
-        border-style: solid;
+        color: whitesmoke;
+        border: solid $color-border-1;
         border-radius: 20px;
         background-color: $color-bg-pc;
+        font-size: 1.2rem;
     }
-}
-
-@media (min-width: 320px) and (max-width: 767px){
-    .cajaimgtext2{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        margin: 2% 3%;
-        padding: 2%;
-        border-style: solid;
-        border-radius: 20px;
-        background-color: $color-bg-tablet;
-    }
-}
-@media (min-width: 768px) and (max-width: 1199px){
-    .cajaimgtext2{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        margin: 2% 3%;
-        padding: 2%;
-        border-style: solid;
-        border-radius: 20px;
-        background-color: $color-bg-pc;
-    }
-}
-@media (min-width:1200px){
     .cajaimgtext2{
         display: flex;
         margin: 2% 3%;
         padding: 2%;
         padding-right: 0;
-        border-style: solid;
+        color: whitesmoke;
+        border: solid $color-border-1;
         border-radius: 20px;
         background-color: $color-bg-pc;
+        font-size: 1.2rem;
+    }
+}
+@media (min-width:1600px){
+    .cajaimgtext1{
+        display: flex;
+        justify-content: space-around;
+        margin: 2% 3%;
+        padding: 2%;
+        color: whitesmoke;
+        border: solid $color-border-1;
+        border-radius: 20px;
+        background-color: $color-bg-pc;
+        font-size: 1.4rem;
+    }
+    .cajaimgtext2{
+        display: flex;
+        margin: 2% 3%;
+        padding: 2%;
+        padding-right: 0;
+        color: whitesmoke;
+        border: solid $color-border-1;
+        border-radius: 20px;
+        background-color: $color-bg-pc;
+        font-size: 1.4rem;
     }
 }

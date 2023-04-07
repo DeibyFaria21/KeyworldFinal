@@ -7,7 +7,8 @@ main{
             margin-left: 3%;
             margin-right: 3%;
             padding: 1%;
-            border-style: solid;
+            color: rgb(14, 53, 138);
+            border: solid $color-border-2;
             border-radius: 20px;
             background-color: $color-bg-tablet;
             .encabezado{
@@ -19,6 +20,7 @@ main{
             }
             .card{
                 background-color: $color-bluesoft;
+                border: solid $color-border-2;
             }
         }
     }
@@ -30,9 +32,11 @@ main{
             margin-left: 3%;
             margin-right: 3%;
             padding: 1%;
-            border-style: solid;
+            color: whitesmoke;
+            border: solid $color-border-1;
             border-radius: 20px;
             background-color: $color-bg-pc;
+            /* background-color: rgb(18, 18, 18); */
             .encabezado{
                 .textofz{
                     margin: 20px;
@@ -41,7 +45,9 @@ main{
                 }
             }
             .card{
-                background-color: $color-graysoft;
+                background-color: #4e695f;
+                /* background-color: $color-bg-pc; */
+                border: solid $color-border-1;
             }
         }
     }

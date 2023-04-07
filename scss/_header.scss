@@ -1,52 +1,44 @@
 header{
-    .banner{
-        border-style:solid;
-        border-radius: 10px;
-        background-image: url("../IMAGES/tecladobanner.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        @media (min-width: 320px) and (max-width: 767px){
+    @media (min-width: 320px) and (max-width: 767px){
+        .banner{
+            border: solid $color-border-2;
+            border-radius: 10px;
+            background-image: url("../IMAGES/tecladobanner2.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
             .eslogan{
                 font-family: 'Kanit', sans-serif;
                 font-size: 1.8rem;
                 color: $color-eslogantiny;
                 font-weight: bold;
             }
-        }
-
-        @media (min-width: 768px){
-            .eslogan{
-                font-family: 'Kanit', sans-serif;
-                font-size: 1.8rem;
-                color: $color-esloganbig;
-                font-weight: bold;
+            img{
+                margin: 5px;
+                width: 10%;
+                height: 10%;
+                border: solid $color-border-2;
+                border-radius: 50%;
             }
         }
-        img{
-            margin: 5px;
-            width: 10%;
-            height: 10%;
-            border-style: solid;
-            border-radius: 50%;
-        }
-    }
-    @media (min-width: 320px) and (max-width: 767px){
         .navbar{
             display: flex;
             justify-items: auto;
             background-color: $color-violetnav;
-            border-style: solid;
+            border: solid $color-border-2;
             border-radius: 10px;
             list-style-type: none;
             padding: 0;
             padding-right:15px;
             width: 95%;
             margin: 2% auto;
+            button.navbar-toggler{
+                background-color: #4c5bb1;
+            }
             .navbar-brand:hover h1{
-                color:rgb(197, 39, 0);
+                color:#147550;
             }
             .navbar-brand{
                 h1{
@@ -57,7 +49,7 @@ header{
                 }
             }
             .nav-link:hover{
-                color:rgb(197, 39, 0);
+                color:#147550;
             }
             .nav-link{
                 margin-left: 15px;
@@ -68,20 +60,47 @@ header{
             }
         }
     }
+            
     @media (min-width: 768px){
+        .banner{
+            border: solid $color-border-1;
+            border-radius: 10px;
+            background-image: url("../IMAGES/tecladobanner.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            .eslogan{
+                font-family: 'Kanit', sans-serif;
+                font-size: 1.8rem;
+                color: $color-esloganbig;
+                font-weight: bold;
+            }
+            img{
+                margin: 5px;
+                width: 10%;
+                height: 10%;
+                border: solid $color-border-1;
+                border-radius: 50%;
+            }
+        }
         .navbar{
             display: flex;
             justify-items: auto;
             background-color: $color-graynav;
-            border-style: solid;
+            border: solid $color-border-1;
             border-radius: 10px;
             list-style-type: none;
             padding: 0;
             padding-right:15px;
             width: 95%;
             margin: 2% auto;
+            button.navbar-toggler{
+                background-color: #147550;
+            }
             .navbar-brand:hover h1{
-                color:rgb(197, 39, 0);
+                color:#147550;
             }
             .navbar-brand{
                 h1{
@@ -92,7 +111,7 @@ header{
                 }
             }
             .nav-link:hover{
-                color:rgb(197, 39, 0);
+                color:#147550;
             }
             .nav-link{
                 margin-left: 15px;
